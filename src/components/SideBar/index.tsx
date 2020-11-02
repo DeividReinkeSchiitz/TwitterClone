@@ -45,7 +45,7 @@ const SideBar: React.FC = () => {
         />
       </SearchWrapper>
 
-      <StickyBox>
+      <StickyBox offsetTop={0}>
         <Body>
           <List
             title="Maybe you like"

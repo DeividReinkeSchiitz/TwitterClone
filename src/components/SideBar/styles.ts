@@ -6,10 +6,11 @@ export const Container = styled.div`
   display: none;
 
   @media (min-width: 1000px) {
+    display: flex;
+
     width: min(399px, 100%);
     background: var(--primary);
     flex-direction: column;
-
     color: var(--white);
   }
 `;

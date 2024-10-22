@@ -40,8 +40,8 @@ export const ProfileData = styled.div`
   height: auto;
   justify-content: center;
 
-  padding: min(calc(10vw+7px), 67px) 16px 0;
-
+  padding: 10px 10px 10px 10px;
+  margin-top: 70px;
   > ul {
     display: flex;
     flex-direction: column;
@@ -125,7 +125,7 @@ export const EditButton = styled(Button)`
   width: auto;
   height: auto;
   right: 7px;
-  top: 10px;
+  top: -60px;
   padding: 8px 15px;
 
   font-size: 14px;
